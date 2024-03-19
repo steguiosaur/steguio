@@ -6,8 +6,42 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-size: 35px;
+}
+
+ul {
+    margin: 0;
+}
+
+ul.dashed {
+    list-style-type: none;
+}
+
+ul.dashed>li {
+    text-indent: -20px;
+}
+
+ul.dashed>li:before {
+    content: "- ";
+    text-indent: -20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h1 {
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
 .container {
-    max-width: 700px; /* Adjust max-width as needed */
+    max-width: 700px;
+    /* Adjust max-width as needed */
     margin: 0 auto;
     padding: 10px;
 }
@@ -40,16 +74,3 @@ body {
     color: #e2e2e2;
     text-decoration: underline;
 }
-
-section {
-    margin-bottom: 20px;
-}
-
-section h2 {
-    margin-bottom: 10px;
-}
-
-section p {
-    margin-bottom: 15px;
-}
-
