@@ -1,7 +1,7 @@
 body {
     background-color: #121212;
     color: #e2e2e2;
-    font-family: 'Courier New', monospace;
+    font-family: monospace;
     padding-top: 50px;
     margin: 0;
 }
@@ -19,12 +19,12 @@ ul.dashed {
 }
 
 ul.dashed>li {
-    text-indent: -20px;
+    text-indent: -2em;
 }
 
 ul.dashed>li:before {
     content: "- ";
-    text-indent: -20px;
+    padding-left: 0em;
 }
 
 section {
@@ -39,11 +39,24 @@ section p {
     margin-bottom: 15px;
 }
 
+section img {
+    width: 80%;
+    height: auto;
+}
+
 .container {
     max-width: 700px;
     /* Adjust max-width as needed */
     margin: 0 auto;
     padding: 10px;
+}
+
+.container a {
+    color: #CCFFFF;
+}
+
+.container a:visited {
+    color: #BBAAFF;
 }
 
 .navbar {
