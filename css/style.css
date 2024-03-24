@@ -10,6 +10,10 @@ h1 {
     font-size: 35px;
 }
 
+hr {
+    border: 2px dashed #e2e2e2;
+}
+
 ul {
     margin: 0;
 }
@@ -66,7 +70,7 @@ section img {
     width: 100%;
     background-color: #121212;
     color: #e2e2e2;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
     z-index: 1000;
     padding: 10px 20px;
     box-sizing: border-box;
